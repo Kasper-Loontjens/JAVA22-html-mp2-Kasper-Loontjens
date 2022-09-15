@@ -10,7 +10,7 @@ body{
 .background{
     height: 28.5rem;
     display: flex;
-    background-image: url(/images/ldvpizzeria.jpg);
+    background-image: url(images/ldvpizzeria.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
