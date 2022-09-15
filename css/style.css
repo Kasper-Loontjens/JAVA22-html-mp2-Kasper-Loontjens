@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: black;
+}
+.background{
+    height: 28.5rem;
+    display: flex;
+    background-image: url(/images/ldvpizzeria.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    background-color:rgba(0, 0, 0, 0.511);
+    width: fit-content;
+    padding: 1rem;
+    align-self: flex-end;   
+    color: white;
+}
+main{
+    display: flex;
+}
+article{
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: brown;
+    border-radius: 2%;
+    color: rgba(9, 9, 9, 0.863);
+}
+article:hover{
+    padding: 1.5rem;
+    margin: 0;
+}
+.menutype{
+    flex-basis: 46%;
+    margin:2%;
+    display: flex;
+    flex-direction: column;
+}
+.menulogo{
+    align-self: flex-start; 
+    color: brown;
+    padding: 1rem;
+}
+.ing{
+    float: left;
+}
+.price{
+    float: right;
+}
+footer{
+    color: brown;
+}
+.b-colr-brown{
+    background-color: brown;
+}
+.navbar-nav a:hover{
+    border-bottom: 2px solid ;
+}
